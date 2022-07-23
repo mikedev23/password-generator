@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="shortcut icon" href="https://img.icons8.com/office/452/code.png" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header id="header-title">
+            Generate a
+            <br>
+            <span style="color: rgb(255, 116, 66)">random password</span>
+        </header>
+        <p id="subtext">Never use an insecure password again.</p>
+        <div class="btn-container">
+            <button class="btn-text" onclick="generateRandomPassword()">
+                Generate Password
+            </button>
+        </div>
+        <div class="border"></div>
+        <section>
+            <div class="password-container-one">
+                <button class="btn-text-one"></button>
+            </div>
+            <div class="password-container-two">
+                <button class="btn-text-two"></button>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
